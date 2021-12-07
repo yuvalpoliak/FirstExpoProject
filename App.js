@@ -89,7 +89,7 @@ export default function App() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: 'black',
+        backgroundColor: 'white',
         alignItems: 'center',
         justifyContent: 'center',
         padding: 30,
@@ -100,13 +100,14 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         padding: 15,
         marginBottom: 20,
-        borderColor: 'blue',
+        borderColor: 'gray',
     },
     button: {
       borderColor: 'gray',
+      backgroundColor: 'blue',
       borderWidth: 1,
       borderRadius: 20,
-      height: 25,
+      height: 50,
       width: 75,
       padding: 15,
       margin: 20
